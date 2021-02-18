@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  margin-top: 10px;
+  height: 100px;
+  width: 3px;
+  background-color: rgb(85, 161, 255);
+}
+
+.link {
+  margin-bottom: 10px;
+}

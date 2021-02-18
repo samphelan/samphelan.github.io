@@ -1,0 +1,55 @@
+@import "../../assets/_constants.scss";
+
+.wrapper {
+  max-width: calc(#{$xs} - 40px);
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  //min-height: 70vh;
+  &.verticallyCentered {
+    justify-content: center;
+  }
+  &.thin {
+    max-width: calc(#{$xs} - 60px);
+  }
+}
+
+@media (min-width: $sm) {
+  .wrapper {
+    max-width: calc(#{$sm} - 40px);
+    &.thin {
+      max-width: calc(#{$sm} - 120px);
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .wrapper {
+    max-width: calc(#{$md} - 60px);
+    &.thin {
+      max-width: calc(#{$md} - 240px);
+    }
+  }
+}
+
+@media (min-width: $lg) {
+  .wrapper {
+    max-width: calc(#{$lg} - 80px);
+    &.thin {
+      max-width: calc(#{$lg} - 320px);
+    }
+  }
+}
+
+@media (min-width: $xl) {
+  .wrapper {
+    max-width: calc(#{$xl} - 100px);
+    &.thin {
+      max-width: calc(#{$xl} - 400px);
+    }
+  }
+}

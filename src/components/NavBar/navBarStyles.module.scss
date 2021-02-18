@@ -1,0 +1,34 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 30px 50px;
+}
+
+.navLink {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0;
+  font-size: 0.9em;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.anchorLink {
+  color: black;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.contactInfo {
+  color: white;
+}
