@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 5px 10px;
+    background-color: white;
+    z-index: 9;
+}
+
+.logoWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.linksWrapper {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+}
+
+.selected {
+    text-decoration: greenyellow wavy underline 3px;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: greenyellow wavy underline 3px;
+}
+
+
+.title {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}

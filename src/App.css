@@ -1,5 +1,16 @@
+ @font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/SLC_.ttf) format('truetype');
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
+  color: black;
+  font-family: MyFont, 'Courier New', Courier, monospace;
 }
 
 .App-logo {
@@ -24,8 +35,27 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  font-family: Graphic, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.appleFont {
+  font-family: Graphic, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @keyframes App-logo-spin {

@@ -1,0 +1,21 @@
+.techList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(157, 157, 157);
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    font-family: Graphic, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.techItem {
+    margin-right: 8px;
+}

@@ -1,0 +1,60 @@
+.header {
+    margin: 40px 0 20px 0;
+    font-style: italic;
+    text-align: center;
+}
+
+.sectionHeader {
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.appleFont {
+    font-family: Graphic, -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.credentials {
+    padding: 30px;
+}
+
+.photoSection {
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.infoWrapper {
+    flex: 50%;
+}
+
+.imageWrapper {
+    flex: 50%;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    position: relative;
+}
+
+.textBlock {
+    margin-bottom: 30px;
+}
+
+.codeBlock {
+    max-width: 50%;
+    position: relative;
+}
+
+.leftWrapper {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.rightWrapper {
+    width: 50%;
+    margin-left: 10px;
+}

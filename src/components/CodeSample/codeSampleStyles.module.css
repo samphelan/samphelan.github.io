@@ -1,0 +1,37 @@
+.wrapper {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    max-width: 100%;
+}
+
+.codeTabsWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.button {
+    padding: 10px;
+    margin: 0;
+    color: rgb(230,230,230);
+    border: none;
+    background-color: rgb(0,0,0);
+}
+
+.button.selected {
+    color: white;
+    background-color: rgb(40,40,40);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+}
+

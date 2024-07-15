@@ -1,0 +1,19 @@
+.anchor {
+    cursor: auto;
+    display: block;
+    text-decoration: underline;
+}
+
+.noUnderline {
+    text-decoration: none;
+}
+
+.selected {
+    text-decoration: green wavy underline;
+}
+
+.anchor:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
